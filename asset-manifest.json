@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/victorvlt_website/static/css/main.4b323006.css",
+    "main.css": "/victorvlt_website/static/css/main.ae9abf2c.css",
     "main.js": "/victorvlt_website/static/js/main.f8bf54a0.js",
     "static/js/488.bc78bf12.chunk.js": "/victorvlt_website/static/js/488.bc78bf12.chunk.js",
     "static/media/about.jpg": "/victorvlt_website/static/media/about.d7bf9f5ac5072d8762f2.jpg",
@@ -24,12 +24,12 @@
     "static/media/mail.svg": "/victorvlt_website/static/media/mail.92fa1fa25f4e094671ff7c122e55068b.svg",
     "static/media/flutter.svg": "/victorvlt_website/static/media/flutter.50bb17c0e69f24a17adbcca9bd6e8528.svg",
     "index.html": "/victorvlt_website/index.html",
-    "main.4b323006.css.map": "/victorvlt_website/static/css/main.4b323006.css.map",
+    "main.ae9abf2c.css.map": "/victorvlt_website/static/css/main.ae9abf2c.css.map",
     "main.f8bf54a0.js.map": "/victorvlt_website/static/js/main.f8bf54a0.js.map",
     "488.bc78bf12.chunk.js.map": "/victorvlt_website/static/js/488.bc78bf12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b323006.css",
+    "static/css/main.ae9abf2c.css",
     "static/js/main.f8bf54a0.js"
   ]
 }
