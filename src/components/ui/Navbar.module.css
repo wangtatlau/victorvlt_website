@@ -1,0 +1,150 @@
+.logo {
+  height: 80%;
+  width: auto; /* Keeps the aspect ratio intact */
+  cursor: pointer;
+  padding-right: 6px;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  align-self: center;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  justify-content: flex-end;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fee9e1; /* Consistent blue color */
+  padding: 10px 350px; /* Uniform padding */
+  display: flex;
+  justify-content: space-between; /* Space out elements */
+  z-index: 1000;
+  font-size: 18px;
+  font-family: "Charm", serif;
+  height: 250px;
+}
+
+.logoContainer {
+  text-decoration: none; /* Remove underline from the link */
+  display: flex; /* To align the logo and text properly */
+  align-items: center;
+  height: 100%;
+}
+
+.names {
+  height: 100%;
+  padding: 0;
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  color: #1f1f1f; /* Replace #000 with your desired color */
+  font-size: calc(0.4vw + 25px); /* Adjust font size as needed */
+  font-weight: 700;
+  margin: 0;
+  height: 32%;
+  line-height: 32px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 1.5rem;
+}
+
+.itemContainer,
+.leftItemContainer {
+  border-radius: 8px; /* Adjust as needed for rounded corners */
+  transition: background-color 0.2s ease; /* Smooth transition for the filter effect */
+  margin-left: 8%;
+  padding-left: 7%;
+  padding-right: 7%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.itemContainer:hover,
+.leftItemContainer:hover {
+  background-color: #ffffff1c;
+}
+
+
+.menuButton {
+  display: none;
+}
+
+@media (max-width: 1700px) {
+  .leftItemContainer {
+    display: none;
+  }
+
+  .navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fee9e1; /* Consistent blue color */
+    padding: 10px 15%;
+    display: flex;
+    justify-content: space-between; /* Space out elements */
+    z-index: 1000;
+    font-size: 18px;
+    font-family: "Charm", serif;
+    height: 120px;
+  }
+
+  .rightContainer {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobileOverlay {
+    display: block;
+  }
+
+  .mobileMenu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 256px;
+    background-color: #fee9e1;
+    padding: 24px;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #1f1f1f;
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+  }
+}

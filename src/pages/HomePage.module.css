@@ -1,0 +1,786 @@
+.mainContainer {
+  margin-top: 270px;
+  font-family: "Charm", serif;
+  width: 100%;
+}
+
+.homeSection,
+.aboutSection,
+.experienceSection,
+.toolboxSection,
+.contactSection {
+  padding-top: 270px;
+  margin-top: -270px;
+}
+
+.homeLeft {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title1 {
+  color: #1f1f1f;
+  font-size: 3.9rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title2 {
+  color: #1f1f1f;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title3 {
+  color: #1f1f1f;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title4 {
+  color: #1f1f1f;
+  font-size: 3.9rem;
+  font-weight: 700;
+  border-top: 1px solid #1f1f1f;
+  height: 150px;
+  line-height: 150px;
+  margin-top: 0;
+  margin-bottom: 150px;
+}
+
+.title5 {
+  color: #1f1f1f;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.title5::before {
+  content: ">";
+  position: absolute;
+  left: -35px; /* Adjust spacing to fit your design */
+  transition: transform 0.2s ease;
+}
+
+.title5:hover::before {
+  transform: translateX(5px); /* Moves the arrow to the right */
+}
+
+.title5:hover {
+  text-decoration: underline; /* Underline the text on hover */
+}
+
+.title6 {
+  color: #1f1f1f;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title7 {
+  color: #322e2e;
+  font-size: 8.5rem;
+  font-weight: 700;
+  line-height: 170px;
+  margin: 0;
+  height: 170px;
+}
+
+.title8 {
+  color: #322e2e;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.homeContainer {
+  background-color: #d9ffb6;
+  padding: 0 calc(10% + 80px);
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.portrait {
+  height: 700px;
+  border-radius: 0 0 5rem 5rem;
+}
+
+.aboutContainer {
+  background-color: #fff7f3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.aboutLeft {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+.aboutRight {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  margin-right: 10%;
+  text-align: end;
+}
+
+.aboutImg {
+  border-radius: 0 5rem 5rem 0;
+  filter: brightness(100%) contrast(100%) saturate(100%) grayscale(20%) blur(0)
+    opacity(0.8);
+}
+
+.experienceContainer {
+  background-color: #fff7f3;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 150px;
+  justify-content: space-between;
+}
+
+.experienceLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  padding-right: 100px;
+}
+
+.jobDesContainer {
+  width: 80%;
+  align-items: end;
+  max-height: 750px;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: end;
+}
+
+.experienceRight {
+  display: flex;
+  flex-direction: column;
+  padding-top: 300px;
+}
+
+.qVault {
+  max-height: 750px;
+  height: 65vh;
+  border-radius: 5rem 0 0 0;
+}
+
+.siemens {
+  max-height: 750px;
+  height: 65vh;
+  border-radius: 0 0 0 5rem;
+}
+
+.toolboxContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff7f3;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.iconsContainer {
+  max-width: 2000px;
+  width: calc(100% - 250px);
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.tool {
+  max-height: 120px;
+  max-width: calc(8vw + 40px);
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #d9ffb6;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.contactLeft {
+  width: fit-content;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ig {
+  height: 80px;
+  cursor: pointer;
+}
+
+.linkedin {
+  height: 63px;
+  cursor: pointer;
+}
+
+.mail {
+  height: 50px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.btn18,
+.btn18 *,
+.btn18::after,
+.btn18::before,
+.btn18:after,
+.btn18:before {
+  border: 1 solid;
+  box-sizing: border-box;
+}
+
+.btn18 {
+  -webkit-tap-highlight-color: #1f1f1f;
+  background-color: #d9ffb6;
+  background-image: none;
+  color: #f5f5f5;
+  cursor: pointer;
+  font-family: "Charm", serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 50px;
+  width: 220px;
+  border-radius: 2.5rem;
+  padding: 0.8rem 3rem;
+  z-index: 0;
+}
+
+.btn18:disabled {
+  cursor: default;
+}
+
+.btn18:-moz-focusring {
+  outline: auto;
+}
+
+.btn18,
+.btn18 .textContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+.btn18 .textContainer {
+  display: block;
+}
+
+.btn18 .text {
+  display: block;
+  mix-blend-mode: difference;
+  position: relative;
+}
+
+.btn18:hover .text {
+  -webkit-animation: moveUpAlternate 0.3s forwards;
+  animation: moveUpAlternate 0.3s forwards;
+}
+
+.jobImageMob {
+  display: none;
+}
+
+@-webkit-keyframes moveUpAlternate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(80%);
+  }
+  51% {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveUpAlternate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(80%);
+  }
+  51% {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.btn18::after,
+.btn18::before {
+  --tilt: 20px;
+  background: #f5f5f5;
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  content: "";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: transform 0.6s;
+  width: 100%;
+}
+
+.btn18::after {
+  -webkit-clip-path: polygon(
+    var(--tilt) 0,
+    0 50%,
+    var(--tilt) 100%,
+    100% 100%,
+    100% 0
+  );
+  clip-path: polygon(var(--tilt) 0, 0 50%, var(--tilt) 100%, 100% 100%, 100% 0);
+  left: 100%;
+  z-index: -1;
+}
+
+.btn18:hover::before {
+  transform: translateX(100%);
+}
+
+.btn18:hover::after {
+  transform: translateX(-100%);
+}
+
+@media (max-width: 1700px) {
+  .homeSection,
+  .aboutSection,
+  .experienceSection,
+  .toolboxSection,
+  .contactSection {
+    padding-top: 100px;
+    margin-top: -100px;
+  }
+
+  .mainContainer {
+    margin-top: 100px;
+  }
+
+  .homeContainer {
+    padding: 0 calc(10%);
+    padding-bottom: 50px;
+  }
+
+  .homeLeft {
+    padding-top: 50px;
+  }
+
+  .portrait {
+    height: 600px;
+  }
+
+  .qVault {
+    height: 38vw;
+    border-radius: 5rem 0 0 0;
+  }
+
+  .siemens {
+    height: 38vw;
+    border-radius: 0 0 0 5rem;
+  }
+
+  .experienceLeft {
+    padding-right: 60px;
+  }
+
+  .jobDesContainer {
+    height: 38vw;
+  }
+
+  .title1 {
+    font-size: 3.2rem;
+  }
+
+  .title4 {
+    font-size: 3.2rem;
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .title2 {
+    font-size: 1.7rem;
+  }
+
+  .title3 {
+    font-size: 1.3rem;
+  }
+
+  .title5 {
+    font-size: 2.6rem;
+  }
+
+  .title6 {
+    font-size: 1.8rem;
+  }
+
+  .title7 {
+    color: #322e2e;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 120px;
+    margin: 0;
+    height: 120px;
+  }
+
+  .title8 {
+    color: #322e2e;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  .btn18 {
+    font-size: 1.6rem;
+    width: 220px;
+    padding: 0.6rem;
+    margin-top: 50px;
+  }
+
+  .ig {
+    height: 60px;
+  }
+
+  .linkedin {
+    height: 48px;
+  }
+
+  .mail {
+    height: 38px;
+    padding-left: 5px;
+  }
+
+  .experienceRight {
+    padding-top: 250px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .homeContainer {
+    padding: 0 calc(10%);
+    padding-bottom: 30px;
+  }
+
+  .experienceRight {
+    padding-top: 200px;
+  }
+
+  .homeLeft {
+    padding-top: 50px;
+  }
+
+  .portrait {
+    height: 450px;
+  }
+
+  .qVault {
+    height: 38vw;
+    border-radius: 5rem 0 0 0;
+  }
+
+  .siemens {
+    height: 38vw;
+    border-radius: 0 0 0 5rem;
+  }
+
+  .experienceLeft {
+    padding-right: 60px;
+  }
+
+  .jobDesContainer {
+    height: 38vw;
+  }
+
+  .title1,
+  .title4 {
+    font-size: 2.5rem;
+  }
+
+  .title4 {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .title2 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+
+  .title3 {
+    font-size: 1rem;
+  }
+
+  .title5 {
+    font-size: 2.2rem;
+  }
+
+  .title6 {
+    font-size: 1.3rem;
+  }
+
+  .title7 {
+    color: #322e2e;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 80px;
+    margin: 0;
+    height: 80px;
+  }
+
+  .title8 {
+    color: #322e2e;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  .btn18 {
+    font-size: 1.2rem;
+    width: 150px;
+    padding: 0.3rem 0.2rem;
+    margin-top: 20px;
+  }
+
+  .ig {
+    height: 52px;
+  }
+
+  .linkedin {
+    height: 42px;
+  }
+
+  .mail {
+    height: 32px;
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 855px) {
+  .homeContainer {
+    padding-bottom: 30px;
+    height: 100%;
+  }
+
+  .aboutContainer {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+
+  .aboutLeft {
+    width: 100%;
+  }
+
+  .aboutImg {
+    border-radius: 0;
+  }
+
+  .aboutRight {
+    align-items: start;
+    width: 90%;
+    padding-left: 10%;
+    text-align: start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .homeLeft {
+    padding-top: 50px;
+    padding-right: 20px;
+  }
+
+  .homeRight {
+    align-items: center;
+    display: flex;
+  }
+
+  .portrait {
+    width: 40vw;
+    height: fit-content;
+    border-radius: 1rem;
+  }
+
+  .qVault {
+    height: 38vw;
+    border-radius: 5rem 0 0 0;
+  }
+
+  .siemens {
+    height: 38vw;
+    border-radius: 0 0 0 5rem;
+  }
+
+  .experienceLeft {
+    padding-right: 0px;
+  }
+
+  .jobDesContainer {
+    height: fit-content;
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .title1,
+  .title4 {
+    font-size: 2rem;
+  }
+
+  .title4 {
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+  }
+
+  .title2 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+
+  .title3 {
+    font-size: 1.2rem;
+  }
+
+  .title5 {
+    font-size: 1.8rem;
+  }
+
+  .title6 {
+    font-size: 1.1rem;
+  }
+
+  .title7 {
+    color: #322e2e;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0;
+    height: 50px;
+  }
+
+  .title8 {
+    color: #322e2e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  .btn18 {
+    font-size: 1.2rem;
+    width: 150px;
+    padding: 0.3rem 0.2rem;
+    margin-top: 20px;
+  }
+
+  .ig {
+    height: 45px;
+  }
+
+  .linkedin {
+    height: 35px;
+  }
+
+  .mail {
+    height: 28px;
+    padding-left: 5px;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contactLeft {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .contactRight {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .experienceRight {
+    display: none;
+  }
+
+  .jobImageMob {
+    display: flex;
+    width: 100%;
+  }
+
+  .iconsContainer {
+    width: calc(100% - 100px);
+    gap: 35px;
+  }
+}

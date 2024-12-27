@@ -1,0 +1,22 @@
+.itemContainer {
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  margin-left: 8%;
+  padding-left: 7%;
+  padding-right: 7%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.itemContainer:hover {
+  background-color: #ffffff1c;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 1.5rem;
+}
