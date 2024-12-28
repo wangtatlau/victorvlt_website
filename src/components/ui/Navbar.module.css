@@ -1,5 +1,5 @@
 .logo {
-  height: 80%;
+  height: 100px;
   width: auto; /* Keeps the aspect ratio intact */
   cursor: pointer;
   padding-right: 6px;
@@ -51,12 +51,12 @@
 }
 
 .name {
-  color: #1f1f1f; /* Replace #000 with your desired color */
-  font-size: calc(0.4vw + 25px); /* Adjust font size as needed */
+  color: #1f1f1f;
+  font-size: 34px;
   font-weight: 700;
   margin: 0;
-  height: 32%;
-  line-height: 32px;
+  height: 39px;
+  line-height: 39px;
 }
 
 .navLink {
@@ -92,6 +92,16 @@
 @media (max-width: 1700px) {
   .leftItemContainer {
     display: none;
+  }
+
+  .logo {
+    height: 70px;
+  }
+
+  .name {
+    font-size: 26px;
+    height: 28px;
+    line-height: 28px;
   }
 
   .navBar {

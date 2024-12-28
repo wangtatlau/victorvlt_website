@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/victorvlt_website">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/photography" element={<PhotographyPage />} />
