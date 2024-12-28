@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/victorvlt_website/static/css/main.d4fa66d8.css",
-    "main.js": "/victorvlt_website/static/js/main.f8bf54a0.js",
+    "main.css": "/victorvlt_website/static/css/main.279b1303.css",
+    "main.js": "/victorvlt_website/static/js/main.10d1317c.js",
     "static/js/488.bc78bf12.chunk.js": "/victorvlt_website/static/js/488.bc78bf12.chunk.js",
     "static/media/about.jpg": "/victorvlt_website/static/media/about.d7bf9f5ac5072d8762f2.jpg",
     "static/media/portrait.jpg": "/victorvlt_website/static/media/portrait.b70853305dcc339983a0.jpg",
@@ -24,12 +24,12 @@
     "static/media/mail.svg": "/victorvlt_website/static/media/mail.92fa1fa25f4e094671ff7c122e55068b.svg",
     "static/media/flutter.svg": "/victorvlt_website/static/media/flutter.50bb17c0e69f24a17adbcca9bd6e8528.svg",
     "index.html": "/victorvlt_website/index.html",
-    "main.d4fa66d8.css.map": "/victorvlt_website/static/css/main.d4fa66d8.css.map",
-    "main.f8bf54a0.js.map": "/victorvlt_website/static/js/main.f8bf54a0.js.map",
+    "main.279b1303.css.map": "/victorvlt_website/static/css/main.279b1303.css.map",
+    "main.10d1317c.js.map": "/victorvlt_website/static/js/main.10d1317c.js.map",
     "488.bc78bf12.chunk.js.map": "/victorvlt_website/static/js/488.bc78bf12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4fa66d8.css",
-    "static/js/main.f8bf54a0.js"
+    "static/css/main.279b1303.css",
+    "static/js/main.10d1317c.js"
   ]
 }
